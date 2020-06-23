@@ -9,5 +9,3 @@ def square_array(array)
 end
 end
 
-array_two = [1, 2, 3, 4]
-square_array(array_two)
