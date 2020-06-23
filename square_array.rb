@@ -1,10 +1,12 @@
 def square_array(array)
-  number = 0
+ # number = 0
+  array_new = []
   
   array.each do |num|
     
-    array[number] = num * num
-    number += 1
+    array_new.push(num * num)
+    #array[number] = num * num
+   # number += 1
     
   end
 end
