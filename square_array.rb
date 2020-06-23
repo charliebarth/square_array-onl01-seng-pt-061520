@@ -6,4 +6,5 @@ def square_array(array)
     squared_array.push("#{number}")
   end
 end
+end
 
