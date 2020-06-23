@@ -1,6 +1,7 @@
 def square_array(array)
   
   array_with_nums = "#{array}"
+  
   array_with_nums.each do |num|
     "#{num}" * "#{num}" = number
     squared_array.push("#{number}")
@@ -8,3 +9,4 @@ def square_array(array)
 end
 end
 
+square_array("1, 2, 3, 4")
