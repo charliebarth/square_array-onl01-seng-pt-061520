@@ -9,4 +9,5 @@ def square_array(array)
 end
 end
 
-square_array("1", "2", "3", "4")
+array_two("1", "2", "3", "4")
+square_array(array_two)
