@@ -1,4 +1,4 @@
-def square_array(array)
+def square_array
   
   array_with_nums ["#{array}"]
   
