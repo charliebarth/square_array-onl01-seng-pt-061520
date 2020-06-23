@@ -4,7 +4,7 @@ def square_array(array)
   
   array_with_nums.each do |num|
    number = "#{num}" * "#{num}"
-    squared_array.push("#{number}")
+    puts "#{number}"
   
 end
 end
