@@ -1,8 +1,8 @@
-def square_array(array_with_nums)
+def square_array(array)
   
   # array_with_nums = ["#{array}"]
   
-  array_with_nums.each do |num|
+  array.each do |num|
    number = "#{num}" * "#{num}"
     puts "#{number}"
   
